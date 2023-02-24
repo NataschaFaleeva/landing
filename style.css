@@ -1,0 +1,151 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.section{
+    flex-grow: 1;
+}
+
+.logo{
+    display: block;
+    margin: 60px auto 93px;
+}
+
+.header__title{
+    padding-bottom: 8px;
+   font-weight: 700;
+   font-size: 72px;
+   line-height: 104%;
+   text-align: center;
+   text-transform: uppercase;
+   color: #162C4E;
+   opacity: 0.39;
+}
+
+.subtitle{
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.countdown{
+    display: flex;
+    justify-content: space-between;
+    width: 588px;
+    height: 129px;
+    margin: auto;
+}
+.time{
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    color: #162C4E;
+    text-align: center;
+}
+small{
+    
+    display: inline-block;
+    width: 132px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+}
+small::before{
+    position: absolute;
+    margin-left: -43px;
+    margin-top: -18px;
+    z-index: -1;
+    content: url('./img/Vector\ \(1\).png');
+}
+    
+    
+.separator{
+
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    color: #162C4E;
+}
+.subtitle_2{
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 92px;
+}
+.button{
+    display:block;
+    margin: auto;
+    width: 240px;
+    height: 60px;
+    background: #1D4169;
+    border-radius: 40px;
+    line-height: 51px;
+    padding-left: 28px;
+    padding-top: 5px;
+    margin-bottom: 76px;
+}
+.button:hover{
+    opacity: 0.8;
+    color: #fff;
+    
+}
+
+.btn{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.arrow {
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 26px;
+}
+.arrow:hover{
+    transform: translateX(4px);
+}
+
+
+
+.footer{
+    flex-shrink: 0;
+    height: 192px;
+    background: #162C4E;
+}
+
+.form{
+    width: 440px;
+    height: 59px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 61px
+}
+
+
+.form_footer{
+    font-family: 'Roboto';
+    margin-left: 27px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.6);
+}
+.form_input{
+    width: 50%;
+}
+
